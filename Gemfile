@@ -23,7 +23,7 @@ group :test do
   gem 'timecop'
   gem 'committee'
   gem 'committee-rails'
-  gem 'coveralls', require: false
+  gem 'coveralls', "~> 0.8.0", require: false
 end
 
 gem 'webpacker', groups: [:production, :development]
