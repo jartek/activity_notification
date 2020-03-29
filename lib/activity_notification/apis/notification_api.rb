@@ -459,7 +459,7 @@ module ActivityNotification
 
       # Defines mailer class to send notification
       def set_notification_mailer
-        @@notification_mailer = ActivityNotification.config.mailer.constantize if ActivityNotification.config.email_enabled?
+        @@notification_mailer = ActivityNotification.config.mailer.constantize if ActivityNotification.config.email_enabled
       end
 
       # Returns valid group owner within the expiration period
